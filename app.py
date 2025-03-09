@@ -8,7 +8,7 @@ app = Flask(__name__)
 db = mysql.connector.connect(
     host="localhost",
     user="root",
-    password="Aizen!!123",
+    password="Aizen!!123",   #sql server passwoard(root)
     database="bookmyshow",
     auth_plugin='mysql_native_password'
 )
